@@ -1,0 +1,14 @@
+print("Ascending order") #displays message 
+
+firstnumber=int(input("Input the first number: ")) #promts user to input the first number, I have used the value int to ensure intergers are accepted
+secondnumber=int(input("Input the second number: "))
+#---------------------------------------------------------------
+#The code below explains that if the first number is bigger than the second it swap the numbers, to ensure they are in ascending order 
+if firstnumber > secondnumber:
+    print("Numbers were swapped")
+    print("First number is ", secondnumber)
+    print("Second number is ", firstnumber)
+else: # else means if above statemnt is false, where first number is less then the second then it will not change anything and output the numbers as it is
+    print("First number is ", firstnumber)
+    print("Second number is ", secondnumber)
+    
