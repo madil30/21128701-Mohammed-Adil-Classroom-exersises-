@@ -1,0 +1,7 @@
+print("Palindrome checker program")
+string=input(("Please enter a word>"))
+if(string==string[::-1]):
+      #The code above will detect a palindrome with pythons built in feauture
+      print("The string is a palindrome")
+else:
+      print("Not a palindrome")
