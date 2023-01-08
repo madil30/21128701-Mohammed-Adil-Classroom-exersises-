@@ -1,0 +1,10 @@
+print("Reverse sentence program")
+word=str(input("Please enter a sentence: "))
+#--------------------------------------------
+reverse=word[::-1] #pythons built in feture that means the sentence is flipped   
+print(reverse)
+
+
+
+
+             
