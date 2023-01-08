@@ -1,0 +1,9 @@
+print("Leap year checker")
+
+leapyear=int(input("Enter year:"))
+#I have used the or commnd to create a list of diffrent options for one command, this simplifies the code  
+if  (leapyear%4==0 and leapyear%100==0) or (leapyear%400==0): #this command is pythons code to detect a leap year
+#I simply implemented thid code defined the variables, the variable name I chose is leap year
+    print(leapyear," is a leap year")
+else: # when entering a year any year that is not from the above calaculations will display not a leap year 
+    print(leapyear," is Not Leap Year")
