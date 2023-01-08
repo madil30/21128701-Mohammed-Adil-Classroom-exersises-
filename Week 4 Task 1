@@ -1,0 +1,11 @@
+name = input("Please enter yout name> ")
+upper = name.upper()
+title = name.title()
+
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print("~", upper.ljust(25), "  ~")
+print("~                             ~")
+print("~", name.center(25), "  ~")
+print("~                             ~")
+print("~", title.rjust(25),          "  ~")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
