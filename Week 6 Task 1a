@@ -1,0 +1,25 @@
+def get_int(message):
+    while True:
+        num=input(message)
+        if num.isdigit()==True:
+            return int(num)
+        else:
+            print("Bad input!")
+            print("Please enter an integer")
+            
+def get_float(message):
+    while True:
+        num=input(message)
+        if '.' in num:
+            return float(num)
+            break
+        else:
+            print("Bad input!")
+            print("Please enter an float")
+            
+get_int("Please enter integer: ")
+get_float("Please enter a float: ")
+    
+
+
+
