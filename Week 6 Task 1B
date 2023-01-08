@@ -1,0 +1,27 @@
+from task_1a import get_float #this command importa the markcalulator data
+#the command get float does not function if it is not imported 
+
+print("Mark calcualator")
+
+mark1=get_float("Input the first mark: ")
+weight1=get_float("Input weight of first mark: ")
+                    
+mark2=get_float("Input the second mark: ")
+weight2=get_float("Input weight of second mark: ")
+            
+mark3=get_float("Input the third mark: ")
+weight3=get_float("Input weight of third mark: ")
+ #___________________________________________________________________ The lioe below is the same as the previous code           
+print("The overall mark for the mark and weight input is: ")
+
+total1=mark1*(weight1/100)
+total2=mark2*(weight2/100)
+total3=mark3*(weight3/100)
+
+
+print("Mark1 =", mark1, "Weight1 =", weight1, "%", "Weighted mark =", mark1, "x", weight1, "% = ", total1)
+print("Mark2 =", mark2, "Weight2 =", weight2, "%", "Weighted mark =", mark2, "x", weight2, "% = ", total2)
+print("Mark3 =", mark3, "Weight3 =", weight3, "%", "Weighted mark =", mark3, "x", weight3, "% = ", total3)
+
+total=(total1 + total2 + total3)
+print("The total mark is ", total1, "+", total2, "+", total3, "=", total,"%") 
